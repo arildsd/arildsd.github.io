@@ -137,6 +137,7 @@ $(document).ready(function () {
     });
 
     /********************** Social Share buttons ***********************/
+    /*
     var share_bar = document.getElementsByClassName('share-bar');
     var po = document.createElement('script');
     po.type = 'text/javascript';
@@ -160,6 +161,7 @@ $(document).ready(function () {
         share_bar[i].innerHTML = html;
         share_bar[i].style.display = 'inline-block';
     }
+    */
 
     /********************** Embed youtube video *********************/
     $('.player').YTPlayer();
@@ -208,6 +210,7 @@ $(document).ready(function () {
 
 
     /********************** RSVP **********************/
+    /*
     $('#rsvp-form').on('submit', function (e) {
         e.preventDefault();
         var data = $(this).serialize();
@@ -234,6 +237,7 @@ $(document).ready(function () {
                 });
         }
     });
+    */
 
 });
 
